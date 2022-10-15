@@ -1,0 +1,25 @@
+fragments contain arguments in the form of an android Bundle !
+
+which is key : value store !
+
+also known as dictionary or associative array !
+
+pass data from frag A to frag B
+
+val argBundle = Bundle()
+
+argBundle.putString(NameKeyString , "content")
+argBundle.putInt(SERIAL_KEY_INT , 42)
+
+val fragment = Fragment B()
+fragement.arguments = argBundle
+
+---------- this is the traditional way
+
+
+but we have safears which a gradle plugin that generates code 
+to guarantee that the arguments on both sides match up !
+
+safe arguments generates nav directions Classes !
+
+the nav Direction will create for us the bundle behind the scene !
