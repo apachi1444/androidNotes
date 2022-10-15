@@ -1,0 +1,6 @@
+it's used to tell the navigation to pop up some destinations after 
+we do our navigation to the desired fragment
+
+popUpInclusive remove all the elements in back stack until it
+finds that specific element!
+( POP TO )

@@ -1,0 +1,11 @@
+Menu attributes use
+
+- id : navigate to the fragment whose id is the same ( in the nav graph )
+
+- title : string displayed in the menu
+
+- onOptionsItemSelected : when a menu item is selected
+
+- setHasOptionsMenu : fragement has a menu
+
+- onCreateOptionsMenu : where you inflate your menu layout !

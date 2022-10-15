@@ -1,0 +1,9 @@
+navigationController has a UI Library called navigation UI
+
+it integrates with the action bar to implement the correct behavior for 
+the UP Button
+
+onSupportNavigateUp(){
+	return navController.navigateUp()
+}
+to do the navigation handle what happens when Up is pressed !
