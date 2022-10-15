@@ -3,3 +3,7 @@ it's managed by the nav controller in the nv host fragment !
 Navigation.findNavController()
 
 Navigation.createNavigateOnClickListener(id_action)
+
+sometimes we can find the navController by searching in the view directly
+not necessilary the navHostFragment!
+
