@@ -1,0 +1,48 @@
+intent indicates intention of your app!
+
+description of something that the app wants an activity to perform!
+system uses to locate activities on behalf of applications
+
+if intents were used to locate grocery sotes in the real world
+
+explicit would be : the description of a specific local convenience store
+implicit : describe the store withing five mile radius that sold organic cabbages!
+
+
+--------------------- 2 types --------------------------
+
+explicit intent !
+lauch specific activity !
+the navigation do this when go to another acitivities in the nav graph !
+
+
+implicit intent!
+provide abstract description of the operation to be performed 
+when multiple android apps can handle the same implicit intent
+android will pop up a chooser like this one that contains a list of 
+compatible apps so that the user select the desired one to perform the request
+--- they are important because app request something from another app 
+without having to know anything about the other app
+
+
+actions are used in intents to describe the type of thing that is to be done
+common actions in intent class : view , edit , 
+
+categories and dtattype to further describe the operation !
+
+
+
+in the AndroidManifest
+explicit uses the acitvity tag
+implicit uses the intent filter! means that your activity is exposed to
+an implicit intent with a certain action , category , or type 
+	
+shareIntent.setType("text/plain"): we use the mime type 
+to tell android which activities must handle this request
+
+val intent = Intent(Intent.ACTION_SEND)
+to tell android we want activities that are registred with an !!!!!! intent filter
+to handle this request !
+
+startsActivity(getIntent()) ! 
+if we have only one activity that can handle this intent , opened automatically

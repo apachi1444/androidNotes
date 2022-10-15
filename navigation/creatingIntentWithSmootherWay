@@ -1,0 +1,2 @@
+ShareCompat.IntentBuilder.from(activity)
+.setText(getString(R.string.share))
