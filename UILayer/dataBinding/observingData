@@ -1,0 +1,5 @@
+instead of explicitly updating the UI when the value changes 
+make it observable !
+
+
+when an observable changes , the UI Elements are updatted automatically

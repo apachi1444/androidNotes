@@ -1,0 +1,22 @@
+it's a feature that allow us to write code that interacts with views
+
+generates a binding class for each XML Layout 
+an instance of class represents all references to all views in the layout 
+with their corresponding ID
+
+to make a layout ignored while generating the binding classes
+tools:viewBindingIgnore="true"
+
+getRoot() : get ref to the root of the layout in the xml file !
+
+
+// this will return an instance of the class ResultProfileBinding !
+val binding = ResultProfileBinding.inflate(layoutInflater)
+
+
+
+<EditText android:id="@+id/user_bio" tools:viewBindingType="TextView" />
+
+will generate a field as TextView !
+
+

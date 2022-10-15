@@ -1,0 +1,9 @@
+the setContentView does is displaying your UI in the current activity
+and inflates it into a view which is added to the activity context
+so we can call the findViewById !!!!
+
+
+DataBindingUtil.setContentView(context , layoutRes)
+does all the above plus creating the binding object 
+do the findViewById and all other data binding related task under the hood
+and gives you directly the binding object

@@ -1,0 +1,4 @@
+null safety : view binding creates refs to views , no risk of null pointer
+
+type safety : the field in each binding class have type matching the views they ref in the XML file
+

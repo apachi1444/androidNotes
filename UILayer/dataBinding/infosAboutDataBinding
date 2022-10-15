@@ -1,0 +1,14 @@
+working with observable data objects
+
+the dataBindingLibrary provides classes and methods to easily observe data
+for changes 
+do not worry about refreshing the UI when the data sources changes !
+
+when we use the data binding layout we should use this expression !
+val binding = DataBindingUtil.setContentView(this,R.layout....);
+
+use the data binding to avoid null things during the run time execution
+
+
+
+

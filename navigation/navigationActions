@@ -1,0 +1,5 @@
+it's managed by the nav controller in the nv host fragment !
+
+Navigation.findNavController()
+
+Navigation.createNavigateOnClickListener(id_action)

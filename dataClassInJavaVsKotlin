@@ -1,0 +1,17 @@
+In java :
+
+public class User {
+  public final String firstName;
+  public final String lastName;
+  public User(String firstName, String lastName) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+  }
+}
+
+In Kotlin :
+data class User(val firstName: String, val lastName: String)
+This type of object has data that never changes. It is common in 
+applications to have 
+data that is read once and never changes thereafter.
+

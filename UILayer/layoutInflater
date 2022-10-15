@@ -1,0 +1,4 @@
+when inflating the xml file you are getting the ref to the xml file
+and all the objects in the xml that can be converted into JAVA
+
+used to instantiate layout XML File into its corresponding view objects	

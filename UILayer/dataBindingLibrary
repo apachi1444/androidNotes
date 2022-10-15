@@ -1,0 +1,34 @@
+bindUiComponents in your layouts to data sources in your app
+using declarative way
+
+<TextView
+    android:text="@{viewmodel.userName}" />
+
+
+--- Layouts and binding expressions 
+
+the expression language allows you to write expressions that connect vars to the views in the layout
+also this expression helps you to handle the events dispatched by the views!
+
+	
+
+
+Data Binding library generates the classed required to bind the views
+in the layout with data objects !!!!
+
+the binding variables that can be used in expressions are defined inside a 
+data element
+
+( data is a sibling of the root ! )
+
+
+
+<data>
+        <variable
+            name="viewmodel"
+            type="com.myapp.data.ViewModel" />
+</data>
+
+and the root should be wrapped into the layout layout
+<layout>  <data> <ConstraintLayout>
+
