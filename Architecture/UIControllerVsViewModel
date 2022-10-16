@@ -1,0 +1,8 @@
+the ui controller only displays and gets user/OS events
+
+viewModel holds data for UI
+
+UIController does not make decisions 
+
+viewModel never reference fragments , activities or views!
+

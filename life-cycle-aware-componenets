@@ -1,0 +1,18 @@
+perform actions in response to a change in the lifecycle status of another
+component such activities , fragments ..
+
+
+using these componenets we can move the code of depenedant components
+out of the lifecycle method and into the comonents themselves !
+
+!!!!!!!!!!!!
+the "androidx.lifecycle" package provides classes and interfaces that 
+let you build lifecycle aware compoenents 
+which are elements that can adjust their behavior based on the current
+status of the followed component !
+
+lifecycles are managed by the OS
+
+Lifecycle is a class that holds the informations about the lifecycle of a
+a componenet !
+

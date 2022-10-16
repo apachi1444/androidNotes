@@ -1,0 +1,15 @@
+lifecycles are managed by the OS
+
+
+Lifecycle is a class that holds the informations about the lifecycle of a
+a componenet !
+
+this class has two enums 
+- Event 
+- State
+
+"think of states as nodes in the graph and events as the edges between these nodes"
+
+a class can monitor the component's lifecycle by implementating the 
+DefaultLifecycleObserver!
+and override the onResume/onPause
