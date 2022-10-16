@@ -1,0 +1,17 @@
+it produces a new form of liveData from another liveData
+and exposes the new one to the observers in the controller UI
+
+
+val player: LiveData<Player> =
+
+val playerName : LiveData<String>  = Transformations.map(player){it.name}
+
+
+-distinctUntilChanged
+
+val players: LiveData<List<Player>> = ...
+
+val playerNames: LiveData<List<String>> = 
+    Transformations.distinctUntilChanged(
+        Transformations.map(players) { players -> players.map { it.name } }
+    )

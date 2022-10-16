@@ -1,0 +1,15 @@
+is a class that holds data
+life cycle aware 
+means that if the ui controller gets destroyed it will not pass the 
+data to it
+
+until it will be back to screen !
+
+it s a double relationship between the controller and the liveData
+the ui controller is observer for the data
+the liveData is the observer for the lifeCycle of the ui controller
+
+so in the ui conroller
+// this means that the liveData is observing for the lifeCycle of the ui Controller
+binding.score.observe(this , Observer{});
+
