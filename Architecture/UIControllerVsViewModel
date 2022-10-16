@@ -6,3 +6,24 @@ UIController does not make decisions
 
 viewModel never reference fragments , activities or views!
 
+
+for simple data , we can use the onSaveInstanceState() method and restores
+its data from the bundle in onCreate() method !
+not suitable for small amount of data to 
+do the serializing and deserializing 
+
+and also the ui Controller makes to do a lot of asynchronous tasks
+
+val model : MyViewModel by viewModels()
+
+if the activity is re-created it will receive the same 
+viewModel that is already created in the first acitivity !
+
+
+we need to make the ui controller data-driven means : 
+its responsability is to update the views as data changes , notify user
+actions back to the VIEWMODEL !
+
+Use DataBinding to maintain a clean interface between your views and 
+the UICONTROLLER !
+make views more declartive 
