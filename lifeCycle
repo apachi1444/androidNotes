@@ -13,3 +13,7 @@ this class has two enums
 a class can monitor the component's lifecycle by implementating the 
 DefaultLifecycleObserver!
 and override the onResume/onPause
+
+LifeCycleOwner is an interface that tell Android that his class
+has a LifeCyclce
+( it is a functional interface ! : getLifeCycle() )

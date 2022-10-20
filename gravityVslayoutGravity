@@ -1,0 +1,3 @@
+android:gravity sets the gravity of the contents (i.e. its subviews) of the View it's used on.
+
+android:layout_gravity sets the gravity of the View or Layout relative to its parent.
